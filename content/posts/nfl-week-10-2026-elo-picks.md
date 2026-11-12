@@ -22,7 +22,7 @@ tags:
 .elo-stat { background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 14px 18px; flex: 1; min-width: 130px; }
 .elo-stat-label { font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.08em; color: #7d8590; margin-bottom: 4px; }
 .elo-stat-value { font-size: 1.5rem; font-weight: 800; letter-spacing: -0.02em; }
-.elo-section-title { font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: #7d8590; margin-bottom: 10px; padding-bottom: 6px; border-bottom: 1px solid #30363d; }
+.elo-section-title { font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: #c9d1d9; background: #161b22; border: 1px solid #30363d; border-radius: 6px; padding: 10px 14px; margin-bottom: 10px; }
 .elo-table-wrap { border: 1px solid #30363d; border-radius: 10px; overflow: hidden; margin-bottom: 8px; }
 .elo-table { width: 100%; border-collapse: collapse; font-size: 0.84rem; }
 .elo-table thead th { background: #1c2128; color: #7d8590; font-size: 0.68rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.07em; padding: 10px 14px; text-align: left; border-bottom: 1px solid #30363d; white-space: nowrap; }
