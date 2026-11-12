@@ -166,6 +166,12 @@ a:focus {
   color: #D9B76A;
 }
 
+/* NFL picks table — hide spread/result on mobile */
+@media (max-width: 600px) {
+  .col-spread, .col-result { display: none !important; }
+  .bar-track { width: 48px !important; }
+}
+
 /* Post excerpt text — same size as the [Read More] link */
 .post-preview p,
 .post-preview .post-entry,
