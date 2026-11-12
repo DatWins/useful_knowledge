@@ -50,6 +50,18 @@ tags:
 .result-loss { color: #f85149; font-weight: 800; }
 .elo-note { font-size: 0.75rem; color: #7d8590; margin-top: 8px; line-height: 1.6; }
 .elo-note a { color: #58a6ff; text-decoration: none; }
+
+@media (max-width: 600px) {
+  .elo-table th:nth-child(6),
+  .elo-table td:nth-child(6),
+  .elo-table th:nth-child(7),
+  .elo-table td:nth-child(7) { display: none; }
+  .bar-track { width: 48px; }
+  .elo-table { font-size: 0.78rem; }
+  .elo-table td, .elo-table th { padding: 9px 8px; }
+  .elo-stat-label { font-size: 0.6rem; }
+  .elo-stat-value { font-size: 1.2rem; }
+}
 .results-box { background: #161b22; border: 1px solid #30363d; border-radius: 10px; padding: 20px 24px; margin-top: 20px; color: #adbac7; font-size: 0.88rem; line-height: 1.7; }
 .results-box strong { color: #e6edf3; }
 </style>
