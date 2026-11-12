@@ -14,7 +14,7 @@ tags:
 <style>
 .elo-wrap { font-family: -apple-system, 'Segoe UI', sans-serif; margin: 24px 0; }
 .elo-intro { background: #161b22; border: 1px solid #30363d; border-radius: 10px; padding: 20px 24px; margin-bottom: 20px; color: #e6edf3; }
-.elo-intro p { margin: 0 0 10px; font-size: 0.9rem; line-height: 1.7; color: #adbac7; }
+.elo-intro p { margin: 0 0 10px; font-size: 1rem; line-height: 1.7; color: #EFE8D6; }
 .elo-intro p:last-child { margin: 0; }
 .elo-intro strong { color: #e6edf3; }
 .elo-intro a { color: #58a6ff; text-decoration: none; }
