@@ -166,6 +166,15 @@ a:focus {
   color: #D9B76A;
 }
 
+/* Post excerpt text — same size as the [Read More] link */
+.post-preview p,
+.post-preview .post-entry,
+.post-preview .post-entry p {
+  font-size: 1rem !important;
+  line-height: 1.65 !important;
+  color: #EFE8D6 !important;
+}
+
 /* 9. Footer */
 footer {
   background-color: #1E2A1F !important;
