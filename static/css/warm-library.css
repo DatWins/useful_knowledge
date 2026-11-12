@@ -166,10 +166,14 @@ a:focus {
   color: #D9B76A;
 }
 
-/* NFL picks table — hide spread/result on mobile */
+/* NFL picks table — scroll horizontally on mobile */
 @media (max-width: 600px) {
-  .col-spread, .col-result { display: none !important; }
-  .bar-track { width: 48px !important; }
+  .elo-table-wrap { overflow-x: auto !important; -webkit-overflow-scrolling: touch !important; }
+  .elo-table { min-width: 520px !important; font-size: 0.75rem !important; }
+  .elo-table td, .elo-table th { padding: 8px 10px !important; }
+  .bar-track { width: 44px !important; }
+  .elo-stat-value { font-size: 1.2rem !important; }
+  .elo-stat-label { font-size: 0.6rem !important; }
 }
 
 /* Post excerpt text — same size as the [Read More] link */
