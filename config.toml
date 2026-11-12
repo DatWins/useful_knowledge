@@ -1,5 +1,5 @@
 
-baseURL = "https://useful-knowledge.netlify.app/"
+baseURL = "https://datwins.github.io/useful_knowledge/"
 title = "Useful Knowledge"
 theme = "beautifulhugo"
 language = "en-us"
